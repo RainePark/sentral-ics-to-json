@@ -10,7 +10,7 @@ Simple python script to extract the classes from a Sentral timetable to a json f
 
 ## Limitations
 * The script ignores classes from before and after school due as this syntax varies between schools and is not standard. 
-* The script does not take into account A/B weeks and will only output the timetable for the first full (Mon-Fri) week scheduled for the term. You can implement A/B week yourself by modifying the code to run <code>getweekdata()</code> twice using a different <code>firsteventdate</code> the second iteration that has a timedelta of 1 week. 
+* The script does not take into account A/B weeks and will only output the timetable for the first full (Mon-Fri) week scheduled for the term. You can implement A/B week yourself by modifying the code to run <code>getweekdata()</code> twice using a different <code>firsteventdate</code> that has a timedelta of 1 week in the second iteration. 
 
 ## License
 This project is licensed under the
